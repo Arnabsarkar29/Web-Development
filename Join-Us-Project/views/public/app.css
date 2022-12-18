@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", sans-serif;
+  color: rgb(66, 69, 86);
+  height: 100%;
+  background-image: url("http://i.imgur.com/BJP2Q1j.jpg");
+  background-size: cover;
+  font-weight: 100;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  margin: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  line-height: 3rem;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.form {
+  line-height: 3rem;
+  border: none;
+  border-bottom: 0.1rem solid #ebebeb;
+  margin-top: 20rem;
+  width: 30rem;
+  font-size: 3rem;
+  color: white;
+  padding: 1rem 3rem;
+  background: transparent;
+}
+
+button {
+  line-height: 2;
+  font-size: 2rem;
+  color: rgb(66, 69, 86);
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 1rem;
+  border: none;
+  opacity: 0.8;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.8);
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 1;
+}
